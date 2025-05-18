@@ -4,6 +4,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Conexão L4D2</title>
+  <!-- Favicon in the browser tab -->
+  <link rel="icon" type="image/png" sizes="128x128" href="https://icons.iconarchive.com/icons/3xhumed/mega-games-pack-31/128/Left4Dead-2-2-icon.png" />
   <style>
     body {
       margin: 0;
@@ -15,7 +17,6 @@
       background: linear-gradient(135deg, #2c3e50, #3498db);
       color: #fff;
     }
-
     .container {
       text-align: center;
       background: rgba(0, 0, 0, 0.4);
@@ -23,12 +24,10 @@
       border-radius: 16px;
       box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
     }
-
     h1 {
       font-size: 2rem;
       margin-bottom: 1rem;
     }
-
     a {
       display: inline-block;
       margin-top: 20px;
@@ -40,7 +39,6 @@
       border-radius: 8px;
       transition: background 0.3s ease;
     }
-
     a:hover {
       background: #16a085;
     }
@@ -48,12 +46,12 @@
 </head>
 <body>
   <div class="container">
+    <!-- Displaying the icon as part of the page content -->
+    <img src="https://icons.iconarchive.com/icons/3xhumed/mega-games-pack-31/128/Left4Dead-2-2-icon.png" width="128" height="128" alt="L4D2 Icon">
     <h1>Conecte-se ao servidor aqui!</h1>
     <a href="steam://connect/179.116.6.128:27015">Conectar ao L4D2</a>
   </div>
-
   <script>
-    // Attempt auto-redirect after a few seconds
     setTimeout(() => {
       window.location.href = "steam://connect/179.116.6.128:27015";
     }, 3000);
